@@ -19,4 +19,4 @@
 .*.swp
 
 # Ignore the database.yml file since it contains passwords
-/config/database.yml
+database.yml
