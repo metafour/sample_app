@@ -17,3 +17,6 @@
 
 #Ignore vim .swp files
 .*.swp
+
+# Ignore the database.yml file since it contains passwords
+/config/database.yml
