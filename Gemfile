@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+ruby '1.9.3', engine: 'jruby', engine_version: '1.7.12'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
@@ -22,7 +22,8 @@ group :test do
 end
 
 # Use postgresql for development and test (Chapter 3 - Exercise 3)
-gem 'pg', '0.15.1'
+#gem 'pg', '0.15.1'
+gem 'activerecord-jdbcpostgresql-adapter'
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.0'
 
