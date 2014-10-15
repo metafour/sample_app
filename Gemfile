@@ -12,15 +12,15 @@ gem 'will_paginate', '3.0.4'
 gem 'bootstrap-will_paginate', '0.0.9'
 gem 'rspec-rails','2.13.1'
 
-group :development, :test do
-  gem 'sqlite3', '1.3.7'
-  gem 'spork-rails'
-end
-
 group :test do
-  gem 'selenium-webdriver', '2.0.0'
   gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '4.2.1'
+  gem 'selenium-webdriver', '2.0.0'
+end
+
+group :development do
+  gem 'sqlite3', '1.3.7'
+  gem 'spork-rails'
 end
 
 # Use postgresql for development and test (Chapter 3 - Exercise 3)
